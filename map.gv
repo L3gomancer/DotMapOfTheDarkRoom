@@ -1,0 +1,45 @@
+digraph G {
+name -> {john paul dol grg}
+paul -> {start lk}
+dol -> {start lk}
+lk -> start
+grg -> name
+john -> die [color=red]
+start -> {y sleep find N}
+sleep -> start
+N -> start
+y -> {sleep cz}
+find -> bull
+bull -> find
+bull -> touch
+bull -> cz
+find -> cz
+find -> dontsee
+dontsee -> find
+cz -> kind
+kind -> start
+y -> turn
+
+touch -> oth
+oth -> {sry oth2}
+sry -> {find smell weep}
+weep -> {find cz N piss}
+piss -> clths
+clths -> {touch sit}
+sit -> {fish jump}
+fish -> start
+jump -> lookdn
+
+oth2 -> {smell weepk}
+weepk -> suic
+suic -> {find N pray}
+pray -> {pray2 prey lookout lookdn}
+pray2 -> pray3
+lookout -> find
+
+smell -> sense
+sense -> weep2
+weep2 -> {find talk clths E}
+
+turn -> {N look finger}
+}
